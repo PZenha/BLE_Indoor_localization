@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="PrintBeacons.js" type="text/javascript"> </script>
+<script type="text/javascript"> 
+	function refresh(){
+		setTimeout(function(){
+			location.reload();
+		},5000); 
+	}
+</script>
+
+<style>
+
+body{
+	background-color: #00c18b;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-family: verdana;
+}
+
+h3{
+	color: white;
+	font-family: verdana;
+}
+
+p{
+	color: #555555;
+	font-family: verdana;
+}
+
+.Canvas{
+	width: 50%;
+	margin: auto;
+}
+
+
+</style>
+
+<title>Beacon view</title>
+</head>
+<body>
+
+<h1>BLE project by Pedro Zenha</h1>
+
+
+<div class="Canvas">
+
+<canvas id="myCanvas" width="750" height="400"
+style="border:2px solid #d3d3d3;">
+</canvas>
+
+</div>
+
+<img src="Salao.png" id="image" alt="Supermercado" width="0" height="0">
+
+
+
+<script type="text/javascript">
+	var x = <%=data.posx%>;
+	var y = <%=data.posy%>;
+	if( x != -1){
+		PrintPositions(x,y);
+		refresh();
+	}else{
+		PrintNoDots();
+		refresh();
+	}
+		
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ESP32_BLE_scan", "ESP32_BLE_scan.cppproj", "{EEFC4D92-333B-4802-A51B-DA1016938E64}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "BLE_Advertising", "..\BLE_Advertising\BLE_Advertising.cppproj", "{AB6F12C6-0F84-41F2-9EE8-19E9AEBA63A5}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ESP32_WiFiQuality", "..\ESP32_WiFiQuality\ESP32_WiFiQuality.cppproj", "{206A37A3-63E7-40FE-BA83-AAFE64329066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFC4D92-333B-4802-A51B-DA1016938E64}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EEFC4D92-333B-4802-A51B-DA1016938E64}.Debug|ARM.Build.0 = Debug|ARM
+		{EEFC4D92-333B-4802-A51B-DA1016938E64}.Release|ARM.ActiveCfg = Release|ARM
+		{EEFC4D92-333B-4802-A51B-DA1016938E64}.Release|ARM.Build.0 = Release|ARM
+		{AB6F12C6-0F84-41F2-9EE8-19E9AEBA63A5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{AB6F12C6-0F84-41F2-9EE8-19E9AEBA63A5}.Debug|ARM.Build.0 = Debug|ARM
+		{AB6F12C6-0F84-41F2-9EE8-19E9AEBA63A5}.Release|ARM.ActiveCfg = Release|ARM
+		{AB6F12C6-0F84-41F2-9EE8-19E9AEBA63A5}.Release|ARM.Build.0 = Release|ARM
+		{206A37A3-63E7-40FE-BA83-AAFE64329066}.Debug|ARM.ActiveCfg = Debug|ARM
+		{206A37A3-63E7-40FE-BA83-AAFE64329066}.Debug|ARM.Build.0 = Debug|ARM
+		{206A37A3-63E7-40FE-BA83-AAFE64329066}.Release|ARM.ActiveCfg = Release|ARM
+		{206A37A3-63E7-40FE-BA83-AAFE64329066}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
